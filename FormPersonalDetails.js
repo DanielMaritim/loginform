@@ -10,6 +10,8 @@ export class FormPersonalDetails extends Component {
         this.props.nextStep();
     };
 
+// shows the previous step
+
     back = e => {
         e.preventDefault();
         this.props.prevStep();
