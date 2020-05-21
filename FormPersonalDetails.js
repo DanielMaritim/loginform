@@ -31,6 +31,7 @@ export class FormPersonalDetails extends Component {
                         defaultValue={values.occupation}
                     />
                     <b />
+                            // shows the items about the place the person lives
                     <TextField
                         hintText='Enter Your City'
                         floatingLabelText='City '
